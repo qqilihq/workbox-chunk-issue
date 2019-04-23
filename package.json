@@ -1,0 +1,16 @@
+{
+  "name": "workbox-manifest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "file-loader": "^3.0.1",
+    "rimraf": "^2.6.3",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "workbox-webpack-plugin": "^4.3.0"
+  },
+  "scripts": {
+    "build": "rimraf ./dist && webpack"
+  }
+}
